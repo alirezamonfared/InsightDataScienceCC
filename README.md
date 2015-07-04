@@ -33,8 +33,10 @@ Below is a description of the important files:
 4. **run.bat** This file contains the proper run commands. This file first wipes off the contents of the tweet_output and also the executable InsightDataScienceCC.exe. It also makes sure that csc.exe which is the compiler for C# is in your PATH. It then compiles the source code and creates a new executable InsightDataScienceCC.exe and then runs it. It also makes sure the created output files are in tweet_output directory.
 5. **InsightDataScienceCC.exe** This is  the executable for the codes in src folder. You do not need to worry about this file as it will be re-created when you call run.bat.
 
+## How to Run:
 
+To run the code, you need to have a Windows Machine or have workarounds to make C# work on another OS. If you are on a Windows machine, simply open the command line by typing cmd in your start menu. Go to the folder where you have cloned the GitHub repository and type "run".
 
+## Troubleshoot
 
-
-You may need to slightly modify lines 1 and 2 of the run.bat to point to the correct location of your C# comipler. But it shall work as-is if you have .NET Framewor version 3.5 installed on your system. 
+If your run statement does not work, you may need to slightly modify lines 1 and 2 of the run.bat to point to the correct location of your C# compiler. But it shall work as-is if you have .NET Framework version 3.5 installed on your system. In case that the problem persists, send me an email at alrieza@gatech.edu.
