@@ -19,8 +19,8 @@ namespace InsightDataScienceCC
 
             MedianUnique uniquewords = new MedianUnique(tweetInput, tweetOutput2);
             
-            Console.WriteLine("Press enter to close...");
-            Console.ReadLine();
+            //Console.WriteLine("Press enter to close...");
+            //Console.ReadLine();
         }
     }
 }
